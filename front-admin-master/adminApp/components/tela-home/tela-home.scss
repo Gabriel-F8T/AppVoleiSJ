@@ -1,0 +1,60 @@
+tela-home {
+    img {
+        width: 30%;
+    }
+    .sessoes {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #F4F4F4;
+        background-size: 100%;
+        width: calc(100% - 300px);
+        float: right;
+        height: 100%;
+        font-weight: bold;
+
+        .box {
+            cursor: pointer;
+        }
+
+        
+        #lblPlacarOnline, #lblMarketplace, #lblLojaDaTorcida, #lblMinhaConta {
+            margin-top: 10px;
+            font-size: 33px;
+            color: #4577b1;
+        }
+
+        .cima {
+            #boxPlacarOnline, #boxMarketplace {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                background: #fff;
+                height: 230px;
+                width: 330px;
+                margin-bottom: 50px;
+                box-shadow: 15px 15px 43px 0 rgba(0, 0, 0, 0.05);
+
+                #imgPlacarOnline {
+                    width: 30%;
+                }
+            }
+        }
+        
+        .baixo {
+
+            #boxLojaDaTorcida, #boxMinhaConta {
+                display: flex;
+                align-items: center;
+                flex-direction: column; 
+                justify-content: center;
+                background: #fff;
+                height: 230px;
+                width: 330px;
+                box-shadow: 15px 15px 43px 0 rgba(0, 0, 0, 0.05);
+                margin-bottom: 50px;
+            }
+        }
+    }      
+}

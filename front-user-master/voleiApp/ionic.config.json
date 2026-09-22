@@ -1,0 +1,17 @@
+{
+  "name": "voleiApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/api/",
+      "proxyUrl": "http://jazz.lucasduarte.club/api/"
+    },
+    {
+      "path": "/api/",
+      "proxyUrl": "http://maestro.lucasduarte.club/api/"
+    }
+  ]
+}

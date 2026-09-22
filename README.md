@@ -1,5 +1,9 @@
 # Aplicativo São Judas Torcedor - Área do usuário
 Repositório destinado ao desenvolvimento front-end do projeto integrado do curso Sistemas de Informação, Universidade São Judas Tadeu 2019.
+- Projeto feito em grupo;
+- Turma dividida em 2 times;
+- Front-end;
+- Back-end;
 
 ## "front-user-master"
 - Repositório destinado ao projeto front-end da área do usuário do app Volei São Judas.

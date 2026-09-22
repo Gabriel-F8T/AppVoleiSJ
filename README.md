@@ -2,6 +2,7 @@
 Repositório destinado ao desenvolvimento front-end do projeto integrado do curso Sistemas de Informação, Universidade São Judas Tadeu 2019.
 - Projeto feito em grupo;
 - Turma dividida em 2 times;
+- Em cada time havia um líder;
 - Front-end;
 - Back-end;
 - Todos os alunos tiveram sua parte no projeto.

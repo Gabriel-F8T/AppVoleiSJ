@@ -4,6 +4,7 @@ Repositório destinado ao desenvolvimento front-end do projeto integrado do curs
 - Turma dividida em 2 times;
 - Front-end;
 - Back-end;
+- Todos os alunos tiveram sua parte no projeto.
 
 ## "front-user-master"
 - Repositório destinado ao projeto front-end da área do usuário do app Volei São Judas.

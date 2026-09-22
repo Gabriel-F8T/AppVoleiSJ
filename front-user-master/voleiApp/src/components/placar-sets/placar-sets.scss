@@ -1,0 +1,129 @@
+placar-sets {
+  // general syles
+  
+  // .pai-bolinhas{
+  //   display: flex;
+  //   justify-content: center;
+  //   flex-direction: row;
+  // }
+  .filho-bolinhas{
+    padding: 5px;
+    justify-content: center;
+  }
+
+  .placar-sets-pai{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .content {
+   border-radius: 30px;
+   margin :10px;
+   background-color: white;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   align-content: center;
+  }
+
+ .pontos-set {
+   width: 10px;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: bold;
+   color: #000000;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+  }
+
+  .potuacao-partida {
+   border-radius: 7px;
+   width: 50px;
+   height: 60px;
+   margin:5px;
+   background-color: #0f558b;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+  }
+
+  .resultado_sets {
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: left;
+   color: #0f558b;
+   margin-right: 10px;
+  }
+
+  .resultado_sets_cinza {
+   font-family: Arial;
+   font-size: 12px;
+   font-weight: bold;
+   font-style: normal;
+   font-stretch: normal;
+   line-height: normal;
+   letter-spacing: normal;
+   text-align: left;
+   color:#bbbdbf;
+  }
+
+  #lista-resultado-sets {
+   display: flex;
+   justify-content: center;
+   margin: 4% auto;
+  }
+
+  .pontos-partida {
+   margin: 8px;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: bold;
+   color: white;
+  }
+
+  .bolinha {
+   margin-top: 3px;
+   margin-bottom: 3px;
+   border-radius: 100%;
+   width: 5px;
+   height:5px;
+   background-color: #bbbdbf;
+  }
+
+  .titulo-desafio {
+   font-size: 5px;
+   font-style: italic;
+   text-align: left;
+   color: #fdb908;
+   justify-content: center;
+   display: flex;
+  }
+
+  .titulo-tempo-tecnico {
+   font-size: 5px;
+   font-style: italic;
+   text-align: left;
+   color: #bbbdbf;
+  }
+
+  .saque {
+   border-radius: 7px;
+   width: 35px;
+   height: 5px;
+   margin-left:12px;
+   background-color: #fdb908;
+  }
+}
+
+  
+

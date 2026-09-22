@@ -1,0 +1,61 @@
+<div class="pai-titulo flex">
+
+  <img src="../../assets/imgs/Icones-telas/icone_placar.png" class="icone-placar"/>
+
+  <div class="flex position-placar-online">
+    <h2 class="placar-online">
+      PLACAR ONLINE
+    </h2>
+  </div>
+
+</div>
+
+<div class="pai-subtitulos flex">
+  <div class="position-filhos">
+
+    <div class="position-super-liga">
+      <p class="super-liga">{{nomeLiga}}</p>
+    </div>
+
+    <div class="position-rodada">
+      <p class="rodada">
+        {{rodada}}º RODADA
+      </p>
+    </div>
+
+    <div class="position-ginasio">
+      <p class="ginasio">
+        {{Local}}
+      </p>
+    </div>
+
+    <div class="position-data">
+      <p class="data">
+       {{dataPartida}} | {{horario}}
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+<div class="pai-times-partida flex">
+
+  <div class="time1-partida flex">
+    <img src="../../assets/imgs/logo-usjt.png" class="escudos" *ngIf="!visitante" />
+    <p *ngIf="!visitante">São Judas</p>
+    <img src="{{logoAdversario}}" class="escudos" *ngIf="visitante"/>
+    <p *ngIf="visitante">{{nomeAdversario}}</p>
+  </div>
+
+  <div class="flex">
+    <p class="versus-x">X</p>
+  </div>
+
+  <div class="time1-partida flex">
+      <img src="../../assets/imgs/logo-usjt.png" class="escudos" *ngIf="visitante" />
+      <p *ngIf="visitante">São Judas</p>
+      <img src="{{logoAdversario}}" class="escudos" *ngIf="!visitante"/>
+      <p *ngIf="!visitante">{{nomeAdversario}}</p>
+  </div>
+</div>

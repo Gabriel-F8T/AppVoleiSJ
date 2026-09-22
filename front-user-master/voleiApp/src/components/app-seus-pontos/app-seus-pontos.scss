@@ -1,0 +1,98 @@
+app-seus-pontos {
+  
+    h1,
+    h3 {
+      margin-top: 0; 
+      margin-bottom: 0; 
+    }
+
+    .flex {
+      display: flex;
+    }
+
+    .icone-pontos {
+      display: flex;
+      justify-content: flex-start;
+      position: absolute;
+      width: 45px;
+      height: 45px;
+    }
+    .titulo-pontos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 45px;
+
+      h1 {
+        font-weight: bolder;
+        font-size: 23px;
+      }
+    }
+  
+    .texto {
+      flex-direction: column;
+      text-align: justify;
+      font-size: 12px;
+      margin: 2% 8%;
+      .subtitulo-pontos {
+        font-weight: bold;
+        font-size: 15px;
+      }
+    }
+  
+    .pontuacao {
+      justify-content: center;  
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+      h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+      }
+      p {
+        margin: 0;
+        font-size: 12px;
+      }
+    }
+  
+    .bolinha{
+      width: 35px;
+      height: 35px;
+    }
+    
+  
+    .premios{
+      width: 95%;
+      margin: 2% 2.5%;
+      padding: 2px 0;
+      border-radius: 20px;
+      background-color: #e6e7e8;
+      text-align: center;
+      font-size: 12px;
+      p {      
+        margin: 6px 0;
+      }
+      img {
+        width: 90%;
+      }
+      .ir-para-loja {
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+      }
+      a:active {
+        background-color: grey;
+      }
+    }
+  
+    .img-premios{
+      display: flex;
+      justify-content: center;
+    }
+  }

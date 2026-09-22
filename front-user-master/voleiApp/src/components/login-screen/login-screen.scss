@@ -1,0 +1,122 @@
+login-screen {
+    .bg{
+        background-image: linear-gradient(to top,  #2B734D, #48A1A7,  #026F98);
+        height: 100%;
+        width: 100%;
+    }
+    .edt_login{
+        color: #000;
+    }
+    .item-list{
+        background: transparent;
+    }
+}
+
+div {
+    .form-login {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        position: relative;
+        top: 12%;
+        
+    }
+
+    input {
+        color: #000;
+    }
+
+    #inpLogin {
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        float: center;
+        margin: 10px auto;
+        height: 5%;
+        
+
+        
+    }
+
+    .campoCadastro {
+        display: flex;
+        justify-content: center;  
+        margin-top: 25px;      
+        label {
+            margin-right: 5px;
+            border-radius: 30px;
+        }
+        #lblPrimeiroAcesso {
+            position: relative;
+            font-size: 13px;
+            color: #fff;
+        }
+    
+        #linkCadastro {
+            position: relative;
+            font-size: 13px;
+            color: #fff;
+        }
+    }
+
+    #btnAcessar {
+        width: 80%;
+        margin-top: 20px;
+        top: -5px;
+        letter-spacing: 3spx;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 30px;
+    }
+
+    .labels {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        
+        top: 8%;
+        width: 100%;
+        display: block;
+
+        #lblTime {
+            width: 100%;
+            text-align: center;
+            top: 75px;
+            font-size: 25px;
+            color: #fff;
+            text-shadow: 5px 5px 10px #34495e;
+        }
+    
+        #lblVolei {
+            width: 100%;
+            text-align: center;
+            font-size: 27px;
+            font-weight: bold;
+            color: #fff;
+            position: relative;
+            text-shadow: 5px 5px 10px #34495e;
+        }
+    }
+
+    #imgLogo {
+        max-width: 58%;
+        position: relative;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: auto;
+        display: block;
+        z-index: 2;
+        top: 5%;
+    }
+}
+
+ion-list {
+    background-color: transparent !important;
+}
+
+
+.item-ios {
+    background-color: transparent !important;
+}
